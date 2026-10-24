@@ -1,0 +1,49 @@
+# ---------- Java / Maven ----------
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ---------- Frontend ----------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 前端构建产物会被复制到这里，无需提交
+backend/src/main/resources/static/
+
+# ---------- 运行时数据 ----------
+logs/
+backend/logs/
+data/
+backend/data/
+*.log
+*.pid
+
+# ---------- IDE / 系统文件 ----------
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 本地工具与测试产物 ----------
+.tools/
+.tmp-test/
+out/
+build/
+
+# ---------- 本地配置与敏感信息 ----------
+.env.local
+.env.*.local
+application-local.yml
+application-local.yaml
+application-local.properties
+qidongliucheng.txt
